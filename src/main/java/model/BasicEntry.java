@@ -1,6 +1,5 @@
 package model;
 
-
 public class BasicEntry {
     private String locator;
     private String entry;
@@ -8,6 +7,9 @@ public class BasicEntry {
     public BasicEntry(String locator, String entry) {
         this.locator = locator;
         this.entry = entry;
+    }
+
+    public BasicEntry() {
     }
 
     public String getLocator() {

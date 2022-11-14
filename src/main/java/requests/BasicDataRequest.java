@@ -7,6 +7,9 @@ public class BasicDataRequest {
         this.locator = locator;
     }
 
+    public BasicDataRequest() {
+    }
+
     public String getLocator() {
         return locator;
     }
