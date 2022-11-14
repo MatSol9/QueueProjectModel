@@ -25,4 +25,12 @@ public class BasicEntry {
     public void setEntry(String entry) {
         this.entry = entry;
     }
+
+    @Override
+    public String toString() {
+        return "BasicEntry{" +
+                "locator='" + locator + '\'' +
+                ", entry='" + entry + '\'' +
+                '}';
+    }
 }
