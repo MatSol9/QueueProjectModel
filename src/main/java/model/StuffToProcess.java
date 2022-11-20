@@ -6,12 +6,11 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 import lombok.ToString;
 
+@ToString
 @NoArgsConstructor
 @AllArgsConstructor
 @Getter
 @Setter
-@ToString
-public class BasicEntry {
-    private String locator;
-    private String entry;
+public class StuffToProcess {
+    int id;
 }
